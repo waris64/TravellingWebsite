@@ -6,11 +6,11 @@ const Hero = ({ heroImg, title, text, btnText }) => {
       <img
         src={heroImg}
         alt="hero-img"
-        className="absolute  w-full h-full object-fill "
+        className="absolute  w-full h-full md:object-cover   "
       />
 
       <div className="z-10 text-center px-4     ">
-        <h1 className="text-4xl font-bold py-2">{title}</h1>
+        <h1 className="text-4xl font-bold py-2 ">{title}</h1>
         <h3 className="py-4 text-lg font-semibold">{text}</h3>
         {btnText && (
           <a
