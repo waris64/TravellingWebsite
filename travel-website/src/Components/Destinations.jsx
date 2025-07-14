@@ -75,27 +75,41 @@ const Destinations = () => {
                 </div>
             </div>
             <h1 className='text-center text-4xl pt-10 font-bold pt-4'>Recent Trips</h1>
-            <p className='text-center text-2xl'>You can discover unique destinations using Google Maps.</p>
-            <div className='multiple-destinations flex '>
-
-                <div class="max-w-sm rounded shadow-lg p-4 ">
-                    <div class="transition-transform duration-300 hover:scale-125 overflow-hidden">
-                        <img class="w-full h-56 object-cover rounded" src={malaysia} alt="Sunset in the mountains" />
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>
-                        <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                        </div>
+            <p className='text-center text-2xl '>You can discover unique destinations using Google Maps.</p>
+            <div className='multiple-destinations flex pt-10 gap-x-5'>
+                <div class="max-w-sm rounded shadow-lg p-4">
+                    <div className='transition-transform duration-300 F  overflow-hidden delay-10 cursor-pointer'>
+                        <img class="w-full h-56 object-cover rounded transition-transform duration-300 hover:scale-125" src={indonesia} alt="Sunset in the mountains" />
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Trip in Indonesia</div>
+                        <p class="text-gray-700 text-base">
+                           Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea.
+                        </p>
                     </div>
                 </div>
-
-
+                <div class="max-w-sm rounded shadow-lg p-4">
+                    <div className='transition-transform duration-300 F  overflow-hidden delay-10 cursor-pointer'>
+                        <img class="w-full h-56 object-cover rounded transition-transform duration-300 hover:scale-125" src={malaysia} alt="Sunset in the mountains" />
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Trip in Malaysia</div>
+                        <p class="text-gray-700 text-base">
+                           Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences.
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded shadow-lg p-4">
+                    <div className='transition-transform duration-300 F  overflow-hidden delay-10 cursor-pointer'>
+                        <img class="w-full h-56 object-cover rounded transition-transform duration-300 hover:scale-125" src={france} alt="Sunset in the mountains" />
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Trip in France</div>
+                        <p class="text-gray-700 text-base">
+                            France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );
