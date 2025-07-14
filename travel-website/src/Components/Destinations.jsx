@@ -27,7 +27,7 @@ const Destinations = () => {
 
                 <div className="w-full md:w-1/2 text-center md:text-left">
                     <h2 className="text-2xl md:text-3xl font-bold mb-4">Taal Volcano, Batangas</h2>
-                    <p className="text-base md:text-lg leading-relaxed">
+                    <p className="text-base md:text-lg text-left  leading-relaxed">
                         One of the most iconic views in Luzon, Mt. Taal boasts a volcano inside a lake inside an island. If you fancy a closer look,
                         the hike up to the crater is a mere 45 minutes, and is easy enough for beginners. Guides will assist you most of the way, and
                         you’ll see the peculiar environment found on an active volcano, including volcanic rocks and steam vents. The hike can be dusty
@@ -38,19 +38,19 @@ const Destinations = () => {
                     <img
                         src={pic1}
                         alt="Destination 1"
-                        className="w-1/2 rounded-xl object-cover  relative md:top-10 top-7  h-[70vh]"
+                        className="w-1/2 rounded-xl object-cover  relative md:top-10 top-7 h-[50vh] md:h-[55vh]"
                     />
                     <img
                         src={pic2}
                         alt="Destination 2"
-                        className="w-1/2 rounded-xl object-cover h-[70vh]"
+                        className="w-1/2 rounded-xl object-cover h-[50vh] md:h-[55vh]"
                     />
                 </div>
             </div>
 
             {/* second section of places */}
 
-            <div className="flex flex-col md:flex-row gap-8 md:mt-34 items-center ">
+            <div className="flex flex-col-reverse md:flex-row gap-8 md:mt-34 items-center ">
 
                 <div className="flex gap-4 w-full md:w-1/2 " >
                     <img
@@ -64,9 +64,9 @@ const Destinations = () => {
                         className="w-1/2 rounded-xl object-cover"
                     />
                 </div>
-                <div className="w-full md:w-1/2 text-center md:text-left">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4">Taal Volcano, Batangas</h2>
-                    <p className="text-base md:text-lg leading-relaxed">
+                <div className="w-full md:w-1/2 text-center md:text-left pt-12">
+                    <h2 className="text-2xl md:text-3xl font-bold pb-4">Taal Volcano, Batangas</h2>
+                    <p className="text-base md:text-lg text-left  leading-relaxed ">
                         One of the most iconic views in Luzon, Mt. Taal boasts a volcano inside a lake inside an island. If you fancy a closer look,
                         the hike up to the crater is a mere 45 minutes, and is easy enough for beginners. Guides will assist you most of the way, and
                         you’ll see the peculiar environment found on an active volcano, including volcanic rocks and steam vents. The hike can be dusty
@@ -74,9 +74,9 @@ const Destinations = () => {
                     </p>
                 </div>
             </div>
-            <h1 className='text-center text-4xl pt-10 font-bold pt-4'>Recent Trips</h1>
+            <h1 className='text-center text-4xl pt-10 font-bold pt-4 '>Recent Trips</h1>
             <p className='text-center text-2xl '>You can discover unique destinations using Google Maps.</p>
-            <div className='multiple-destinations flex pt-10 gap-x-5'>
+            <div className='multiple-destinations flex flex-col md:flex-row pt-10 gap-x-5 '>
                 <div class="max-w-sm rounded shadow-lg p-4">
                     <div className='transition-transform duration-300 F  overflow-hidden delay-10 cursor-pointer'>
                         <img class="w-full h-56 object-cover rounded transition-transform duration-300 hover:scale-125" src={indonesia} alt="Sunset in the mountains" />
