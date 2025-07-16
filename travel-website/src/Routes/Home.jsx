@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <main>
             <Navbar />
-            <Hero heroImg="/assets/jeep.jpg" title="Your Journey Your Story" text="Choose Your Favourite Destination" btnText="Travel Plan" />
+            <Hero heroImg="/src/assets/jeep.jpg"  title="Your Journey Your Story" text="Choose Your Favourite Destination" btnText="Travel Plan" />
             <Destinations/>    
             <Footer/>
         </main>

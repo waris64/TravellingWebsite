@@ -6,6 +6,7 @@ return (
     <main>
         <Navbar/>
         <Hero heroImg="/assets/night.jpg" title="About Us"  />
+        
     </main>
 )
 } 

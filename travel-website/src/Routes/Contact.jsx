@@ -7,7 +7,7 @@ const Contact =()=>{
 return (
     <main>
          <Navbar/>
-         <Hero heroImg="/assets/2.jpg" title="Contact Us" />
+         <Hero heroImg="/src/assets/2.jpg" title="Contact Us" />
          <ContactForm/>
          <Footer/>
     </main>
