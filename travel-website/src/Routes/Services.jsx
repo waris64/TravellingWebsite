@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
-import Destinations from '../Components/Destinations';
+import RecentTrips from '../Components/RecentTrips';
 const Services =()=>{
 return (
     <main>
         <Navbar />
-        <Hero  heroImg="/src/assets/services.jpg" title="Our Services" />
-        <Destinations/>
+        <RecentTrips/>
     </main>
 )
 } 

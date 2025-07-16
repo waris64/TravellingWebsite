@@ -6,7 +6,7 @@ const Hero = ({ heroImg, title, text, btnText }) => {
       <img
         src={heroImg}
         alt="hero-img"
-        className="absolute  w-full h-full md:object-cover   "
+        className="absolute  w-full h-full md:object-cover md:bg-contain   "
       />
 
       <div className="z-10 text-center px-4     ">
