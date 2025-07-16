@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Navbar from "./Navbar"
 
 const RegistrationForm = () => {
@@ -34,7 +35,7 @@ const RegistrationForm = () => {
                                 </div>
                                 <button type="submit" class="w-full text-white bg-[#01959a] hover:cursor-pointer focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center border ">Create an account</button>
                                 <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                                    Already have an account? <a href="./Login" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login here</a>
+                                    Already have an account? <Link href="./Login" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login here</Link>
                                 </p>
                             </form>
                         </div>

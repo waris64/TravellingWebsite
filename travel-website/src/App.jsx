@@ -6,6 +6,7 @@ import About from './Routes/About'
 import Contact from './Routes/Contact'
 import Services from './Routes/Services'
 import Register from './Routes/Register'
+import Login from './Components/Login'
 function App() {
   return (
     
@@ -17,6 +18,7 @@ function App() {
         <Route path = '/contact' element={<Contact/>}/>
         <Route path = '/service' element={<Services/>}/>
         <Route path = '/register' element={<Register/>}/>
+        <Route path = '/login' element={<Login/>}/>
       </Routes>
       
       
